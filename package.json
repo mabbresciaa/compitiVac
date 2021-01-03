@@ -1,0 +1,19 @@
+{
+  "name": "compiti_vacanze",
+  "version": "1.0.0",
+  "description": "small page for holidays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "javascript",
+    "webpack",
+    "bootstrap"
+  ],
+  "author": "Michele Abbrescia",
+  "license": "ISC"
+}
