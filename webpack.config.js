@@ -35,36 +35,37 @@ module.exports = {
   module: {
       rules: [
         {
-            test: /\.hbs$/,
-            loader: "handlebars-loader",
-            query: {
-              helperDirs: [ path.join(__dirname, './src/helpers')],
-              partialDirs: [
-                path.join(__dirname, './src/components'),
-              ],
-              knownHelpersOnly: false,
-            },
-          },
-          {
-              test: /\.scss$/,
-              loaders: [
-                  'style-loader',
-                  'css-loader',
-                  'sass-loader'
-              ]
-          },
-          {
-            test: /\.(gif|png|jpe?g|svg)$/i,
-            use: [
-              {
-                loader: 'file-loader',
-                query: {
-                  name: '[name].[ext]',
-                  outputPath: 'images/',
-                },
-              },
+          test: /\.hbs$/,
+          loader: "handlebars-loader",
+          query: {
+            helperDirs: [ path.join(__dirname, './src/helpers')],
+            partialDirs: [
+              path.join(__dirname, './src/components'),
             ],
+            knownHelpersOnly: false,
           },
+        },
+        {
+            test: /\.scss$/,
+            loaders: [
+                'style-loader',
+                'css-loader',
+                'postcss-loader',
+                'sass-loader'
+            ]
+        },
+        {
+          test: /\.(gif|png|jpe?g|svg)$/i,
+          use: [
+            {
+              loader: 'file-loader',
+              query: {
+                name: '[name].[ext]',
+                outputPath: 'images/',
+              },
+            },
+          ],
+        },
       ]
   },
   plugins: [
