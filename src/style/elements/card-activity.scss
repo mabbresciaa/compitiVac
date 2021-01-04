@@ -1,0 +1,18 @@
+.card-activity {
+    width: 100%;
+    // ask Rob
+    height: 310px;
+    max-height: 120px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 22px;
+        font-weight: bold;
+        color: $white;
+        text-align: center;
+    }
+}
