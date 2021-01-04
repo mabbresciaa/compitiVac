@@ -1,0 +1,12 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__brand {
+        display: none;
+    }
+}

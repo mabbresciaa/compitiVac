@@ -1,4 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap-grid";
 
 @import "_global/index.scss";
 @import "_atom/index.scss";
+@import "utils/background";
+
+@import "elements/header";
+@import "elements/navbar";
