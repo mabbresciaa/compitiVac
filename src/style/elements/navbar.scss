@@ -6,7 +6,19 @@
     justify-content: center;
     align-items: center;
 
+    @include media-breakpoint-up(md) {
+        margin-top: 40px;
+        justify-content: space-around;
+    }
+
     &__brand {
         display: none;
+
+        @include media-breakpoint-up(md) {
+            display: initial;
+            font-size: 20px;
+            font-weight: bold;
+            color: $white;
+        }
     }
 }
