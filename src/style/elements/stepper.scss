@@ -6,10 +6,30 @@
         font-weight: bold;
         margin: 35px auto 15px;
         color: $gray-dark;
+
+        @include media-breakpoint-up(md) {
+            margin: 95px auto 35px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 26px;
+        }
+    }
+
+    &__container {
+        @include media-breakpoint-up(md) {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
     }
 
     &__container div:last-child {
         margin-bottom: 0;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 10px;
+        }
     }
 
     &__button > .button {
