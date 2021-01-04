@@ -11,4 +11,9 @@
     &__container div:last-child {
         margin-bottom: 0;
     }
+
+    &__button > .button {
+        width: 100%;
+        text-align: center;
+    }
 }

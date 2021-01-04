@@ -5,4 +5,12 @@
     <div class="stepper__container">
         {{> @partial-block }}
     </div>
+    {{#if button}}
+        <div class="stepper__button">
+            {{>button/button 
+                label = labelButton
+                inverseColor = true
+            }}
+        </div>
+    {{/if}}
 </div>
