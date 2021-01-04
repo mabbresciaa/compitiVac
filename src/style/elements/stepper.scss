@@ -1,0 +1,14 @@
+.stepper {
+    &__title {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 35px auto 15px;
+        color: $gray-dark;
+    }
+
+    &__container div:last-child {
+        margin-bottom: 0;
+    }
+}
