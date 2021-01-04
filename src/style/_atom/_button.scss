@@ -1,0 +1,40 @@
+.button {
+    background-color: $red;
+    color: $white;
+    border-radius: 40px;
+    padding: 10px 50px;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $white;
+    }
+
+    &--inverse-color {
+        background-color: $white;
+        color: $red;
+        border: solid 2px $red;
+
+        &:hover,
+        &:focus {
+            color: $red;
+        }
+    }
+
+    &--no-bck {
+        background-color: transparent;
+    }
+
+    &--white-border {
+        border: solid 2px #ffffff;
+    }
+
+    &--medium {
+        padding: 9px 18px;
+    }
+
+    &--small {
+        padding: 3px 14px;
+        text-transform: uppercase;
+    }
+}
