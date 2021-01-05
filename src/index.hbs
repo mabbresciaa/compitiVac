@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    {{!-- {{>header/header 
+    {{>header/header 
         urlImage = "images/background.png"    
     }}
 
@@ -28,35 +28,8 @@
     {{#>stepper/stepper
         title = "Discover holiday activity ideas"
     }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Sports and Activis"
-        }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Wellness and Health"
-        }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Extreme Sports and Expeditions"
-        }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Games"
-        }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Culture and Education"
-        }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Enjomet and Relaxation"
-        }}
-        {{>card/card-activity
-            urlImage = "images/step-2-image.png"
-            title = "Travelling"
-        }}
-    {{/stepper/stepper}} --}}
+        {{>card/activity-list}}
+    {{/stepper/stepper}}
 
     <div class="container">
         {{>create/create}}
