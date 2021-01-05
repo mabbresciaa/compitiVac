@@ -1,6 +1,6 @@
 <div class="partner-box container">
     <div class="partner-box__media">
-        <div class="partner-box__image bck-image" style="background-image: url('{{urlImage}}');"></div>
+        <div class="partner-box__image bck-image{{#if circleRed}} partner-box__image--circle-red{{/if}}{{#if circleOrange}} partner-box__image--circle-orange{{/if}}{{#if circleGreen}} partner-box__image--circle-green{{/if}}{{#if circleBlue}} partner-box__image--circle-blue{{/if}}" style="background-image: url('{{urlImage}}');"></div>
     </div>
     <div class="partner-box__title">
         {{title}}

@@ -28,18 +28,71 @@
         left: 50%;
         transform: translateX(-50%);
 
-        &::before {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 100%;
-            transform: translate(-100%, -100%);
-            width: 32px;
-            height: 32px;
-            background-color: $red;
-            border-radius: 50%;
-            border: solid 3px $white;
+        &--circle-red {
+  
+            &::before {
+                content: fa-content($fa-var-music);
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                transform: translate(-100%, -100%);
+                width: 32px;
+                height: 32px;
+                background-color: $red;
+                border-radius: 50%;
+                border: solid 3px $white;
+                color: $white;
+            }
         }
+
+        &--circle-orange {
+            &::before {
+                content: fa-content($fa-var-camera);
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                transform: translate(-100%, -100%);
+                width: 32px;
+                height: 32px;
+                background-color: $orange;
+                border-radius: 50%;
+                border: solid 3px $white;
+                color: $white;
+            }
+        }
+
+        &--circle-green {
+            &::before {
+                content: fa-content($fa-var-pen);
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                transform: translate(-100%, -100%);
+                width: 32px;
+                height: 32px;
+                background-color: $cyan;
+                border-radius: 50%;
+                border: solid 3px $white;
+                color: $white;
+            }
+        }
+
+        &--circle-blue {
+            &::before {
+                content: fa-content($fa-var-plane);
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                transform: translate(-100%, -100%);
+                width: 32px;
+                height: 32px;
+                background-color: $blue;
+                border-radius: 50%;
+                border: solid 3px $white;
+                color: $white;
+            }
+        }
+
     }
 
     &__title {
