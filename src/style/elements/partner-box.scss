@@ -51,7 +51,7 @@
     &__subtitle {
         font-size: 12px;
         margin-bottom: 16px!important;
-        opacity: 0.8;
+        color: $gray;
 
         @include media-breakpoint-up(md) {
             margin-bottom: 54px!important;

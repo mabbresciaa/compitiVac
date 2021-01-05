@@ -14,7 +14,7 @@
     &__subtitle {
         font-size: 14px;
         margin-top: 9px;
-        opacity: 0.8;
+        color: $gray;
         text-align: center;
 
         @include media-breakpoint-up(md) {
@@ -54,7 +54,7 @@
         & > input::placeholder {
             padding-left: 15px;
             font-family: Montserrat, sans-serif;
-            opacity: 0.8;
+            color: $gray;
 
             @include media-breakpoint-up(md) {
                 font-size: 14px;
