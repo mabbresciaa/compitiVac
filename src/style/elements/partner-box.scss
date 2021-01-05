@@ -4,6 +4,13 @@
     justify-content: center;
     align-items: center;
 
+    @include media-breakpoint-up(md) {
+        width: 50%;
+        max-width: 236px;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
     & > * {
         width: 100%;
         text-align: center;
@@ -42,8 +49,16 @@
     }
 
     &__subtitle {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 16px!important;
         opacity: 0.8;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 54px!important;
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 36px!important;
+        }
     }
 }

@@ -1,0 +1,8 @@
+.partner-list {
+    @include media-breakpoint-up(md) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+}

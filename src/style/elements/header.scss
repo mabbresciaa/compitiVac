@@ -9,7 +9,7 @@
         height: 70vh;
     }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         height: 100vh;
     }
 
@@ -22,7 +22,7 @@
             width: 80%;
         }
 
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
             width: 40%;
         }
     }
