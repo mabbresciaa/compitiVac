@@ -9,9 +9,17 @@
     align-items: flex-end;
 
     @include media-breakpoint-up(md) {
-        margin-left: 20px;
+        margin-right: 20px;
         max-height: 400px;
+        max-width: 236px;
+    }
+
+    @include media-breakpoint-up(lg) {
         max-width: 300px;
+    }
+
+    &:last-child {
+        margin-right: 0;
     }
 
     &__button {

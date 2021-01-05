@@ -16,13 +16,13 @@
         }
     }
 
-    &__container {
-        @include media-breakpoint-up(md) {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-        }
-    }
+    // &__container {
+    //     @include media-breakpoint-up(md) {
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: flex-end;
+    //     }
+    // }
 
     &__container div:last-child {
         margin-bottom: 0;
