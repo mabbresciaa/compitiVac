@@ -16,23 +16,12 @@
         }
     }
 
-    // &__container {
-    //     @include media-breakpoint-up(md) {
-    //         display: flex;
-    //         justify-content: center;
-    //         align-items: flex-end;
-    //     }
-    // }
-
     &__container div:last-child {
         margin-bottom: 0;
-
-        @include media-breakpoint-up(md) {
-            margin-bottom: 10px;
-        }
     }
 
-    &__button > .button {
+    &__button {
+        position: relative;
         width: 100%;
         text-align: center;
     }
