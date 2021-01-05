@@ -8,14 +8,14 @@
 
     @include media-breakpoint-up(md) {
         margin-top: 40px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     &__brand {
         display: none;
 
         @include media-breakpoint-up(md) {
-            display: initial;
+            display: block;
             font-size: 20px;
             font-weight: bold;
             color: $white;
